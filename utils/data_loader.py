@@ -164,12 +164,13 @@ class FNNDataset(InMemoryDataset):
 			final dataset. (default: :obj:`None`)
 	"""
 
-	def __init__(self, root, name, feature='spacy', empty=False, transform=None, pre_transform=None, pre_filter=None):
+	def __init__(self, root, name, feature='content', empty=False, transform=None, pre_transform=None, pre_filter=None):
 		self.name = name
 		self.root = root
 		self.feature = feature
 		super(FNNDataset, self).__init__(root, transform, pre_transform, pre_filter)
 		if not empty:
+			# Carregue os dados diretamente, não é necessário baixá-los	
 			self.data, self.slices, self.train_idx, self.val_idx, self.test_idx = torch.load(self.processed_paths[0])
 
 	@property
@@ -201,7 +202,8 @@ class FNNDataset(InMemoryDataset):
 			return f'{self.name[:3]}_data_{self.feature}_prefiler.pt'
 
 	def download(self):
-		raise NotImplementedError('Must indicate valid location of raw data. No download allowed')
+		pass
+		#aise NotImplementedError('Must indicate valid location of raw data. No download allowed')
 
 	def process(self):
 

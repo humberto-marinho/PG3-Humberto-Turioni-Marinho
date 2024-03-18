@@ -28,8 +28,8 @@ model_tree.fit(X_train, y_train)
 
 #assessing model perfomance
 y_pred = model_tree.predict(X_test)
-print("Acurácia:", accuracy_score(y_test, y_pred))
-print("Relatório de Classificação:\n", classification_report(y_test, y_pred))
+print("Acuracy:", accuracy_score(y_test, y_pred))
+print("Classification Report:\n", classification_report(y_test, y_pred))
 
 # acessing importance of resources
 importancies = model_tree.feature_importances_

@@ -1,0 +1,5 @@
+1 - C:\Users\user\Desktop\tcc2\GNN-FakeNews\utils\main.py [FNNDataset()]
+2 - C:\Users\user\Desktop\tcc2\GNN-FakeNews\utils\main.py [to_networkx()]
+3 - C:\Users\user\Desktop\tcc2\GNN-FakeNews\utils\classficicator.py(print_graph())
+4 - C:\Users\user\Desktop\tcc2\GNN-FakeNews\utils\main.py 
+5- C:\Users\user\Desktop\tcc2\GNN-FakeNews\utils\classficicator.py

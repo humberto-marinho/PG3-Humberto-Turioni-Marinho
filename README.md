@@ -1,3 +1,7 @@
+# O presente repositório foi usado  para o desenvolvimento do PG3 'DESENVOLVIMENTO DE MÉTRICAS PARA AVALIAR A DISSEMINAÇÃO DE NOTÍCIAS FALSAS EM REDES SOCIAIS' de Humberto Turioni Marinho
+
+# Esse repositório teve como base o repositório 'GNN-based Fake News Detection', portanto deixo o readme original como apoio abaixo: 
+
 # GNN-based Fake News Detection
 [![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/7305473/tree)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/user-preference-aware-fake-news-detection/graph-classification-on-upfd-gos)](https://paperswithcode.com/sota/graph-classification-on-upfd-gos?p=user-preference-aware-fake-news-detection)
